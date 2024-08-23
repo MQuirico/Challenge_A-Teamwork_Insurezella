@@ -1,0 +1,55 @@
+.lightBlue{
+    width: 100vw;
+    height: 6vh;
+    background-color: rgb(19, 89, 194);
+    position: absolute;
+    top: 0%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.connect{
+    font-size: 120%;
+    position: absolute;
+    left: 15%;
+
+}
+
+.mail{
+    position:relative;
+    left: 50%;
+    font-size: 90%;
+  
+}
+
+.phone{
+    position: relative;
+    left: 55%;
+    font-size: 90%;
+}
+
+.white{
+    width: 100vw;
+    height: 17vh
+}
+
+.white .logo{
+    max-width: 5vw;
+    position: absolute;
+    border-radius: 10%;
+    top: 6.5%;
+    left: 5%
+}
+
+.white .callUs{
+    background-color: blue;
+    position: relative;
+    top: 9%;
+    left: 80%;
+    width: 9vw;
+    height: 7vh;
+    border-radius: 15%;
+    font-size: 75%;
+
+}
