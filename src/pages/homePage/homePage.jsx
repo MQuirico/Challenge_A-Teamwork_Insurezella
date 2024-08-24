@@ -1,5 +1,5 @@
 import Header from "../../components/homePage/header/header"
-import Section1 from "../../components/section1/section1"
+import Section1 from "../../components/homePage/section1/section1"
 import "./homePage.css"
 
 export default function HomePage (){

@@ -1,4 +1,4 @@
-import picture from "../../assets/hero-bg.jpg"
+import picture from "../../../assets/hero-bg.jpg"
 import "./section1.css"
 
 export default function Section1 (){
