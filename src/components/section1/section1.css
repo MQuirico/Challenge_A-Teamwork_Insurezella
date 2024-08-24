@@ -1,0 +1,39 @@
+.section1{
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.section1 .textArea{
+    height: 75vh;
+    width: 50vw;
+    background: linear-gradient(135deg, rgb(228, 198, 228), white);
+}
+
+.textArea h2{
+    color: rgb(98, 98, 248);
+    font-size: 250%;
+    width: 35vw;
+    position: absolute;
+    top: 28vh;
+    left: 15vw;
+    line-height: 1;
+}
+
+.textArea .text{
+    color: grey;
+    position: absolute;
+    top: 50vh;
+    left: 15vw;
+}
+
+.textArea .findPlans{
+    background-color: rgb(54, 169, 235);
+    width: 12vw;
+    border-radius: 20%;
+    position: absolute;
+    top: 70vh;
+    left: 15vw;
+    font-weight: bold;
+
+}

@@ -31,7 +31,7 @@
 
 .white{
     width: 100vw;
-    height: 17vh
+    height: 17vh;
 }
 
 .white .logo{
@@ -45,7 +45,7 @@
 .white .callUs{
     background-color: blue;
     position: relative;
-    top: 9%;
+    top: 15%;
     left: 80%;
     width: 9vw;
     height: 7vh;
