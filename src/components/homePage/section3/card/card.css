@@ -1,0 +1,10 @@
+.sec3Card{
+    width: 16vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec3Card h3{
+    color: black
+} 
