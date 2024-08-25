@@ -1,0 +1,9 @@
+.cardsSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95vw;
+    position: absolute;
+    left: 3vh;
+    top: 105vh;
+}
