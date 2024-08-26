@@ -1,0 +1,40 @@
+.section5{
+    position: relative;
+    top: 140vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.section5 .textAreaSec5{
+    width: 45vw;
+}
+
+.section5 img{
+    width: 33%
+}
+
+.textAreaSec5 h2{
+    color: rgb(94, 93, 93);
+    text-align: left;
+    font-size: 220%;
+    position: relative;
+    left: 5vw;
+}
+
+.textAreaSec5 p{
+    position: relative;
+    left: 5vw;
+    font-size: 90%;
+    color: gray;
+}
+
+.textAreaSec5 button{
+    position: relative;
+    left: 5vw;
+    top: 3vh;
+    background-color: rgb(96, 96, 253);
+    border-radius: 30%;
+    width: 35%
+
+}
