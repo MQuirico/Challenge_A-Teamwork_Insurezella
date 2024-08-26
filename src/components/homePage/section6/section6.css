@@ -1,0 +1,24 @@
+.section6{
+    position: relative;
+    top: 155vh;
+    justify-content: center;
+    width: 77vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section6 h2{
+    color: rgb(51, 51, 51);
+    text-align: center;
+    font-size: 200%
+}
+
+.sect6Cards{
+    width: 75vw;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    padding-left: 5vw;
+}
