@@ -1,0 +1,12 @@
+.insurancesCard{
+    width: 20vw;
+    position: relative;
+}
+
+.insurancesCard h3{
+    color: rgb(11, 149, 196);
+}
+
+.insurancesCard p{
+    color: grey
+}

@@ -5,6 +5,7 @@ import "./header.css"
 export default function Header (){
     return(
         <>
+        <header>
             <div className="lightBlue">
                 <h1 className="connect">Want to connect with us?</h1>
                 <h3 className="mail">📧Mail us: support@insurezella.com</h3>
@@ -15,6 +16,7 @@ export default function Header (){
                 <Sections />
                 <button className="callUs">Call Us Now &#10161;</button>
             </div>
+        </header>
         </>
     )
 }

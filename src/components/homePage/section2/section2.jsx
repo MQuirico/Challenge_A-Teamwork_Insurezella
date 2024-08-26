@@ -37,11 +37,11 @@ export default function Section2 (){
     ]
     return(
         <>
-            <div className="cardsSection">
+            <section className="cardsSection">
                 {insuranceOptions.map(option => 
                 <InsCard key={option.key} insurance={option.name} logo={option.logo} />
                 )}
-            </div>
+            </section>
         </>
     )
 }

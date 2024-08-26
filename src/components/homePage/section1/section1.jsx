@@ -4,7 +4,7 @@ import "./section1.css"
 export default function Section1 (){
     return(
         <>
-           <div className="section1">
+           <section className="section1">
                 <section className="textArea">
                     <h2 className="yourGuide">
                         YOUR GUIDE TO <br></br>
@@ -20,7 +20,7 @@ export default function Section1 (){
                     </button>
                 </section>
                 <img src={picture}></img>
-           </div> 
+           </section> 
         </>
     )
 }

@@ -1,0 +1,24 @@
+.section4{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    top: 138vh;
+    width: 97vw
+}
+
+.section4 h2{
+    color: rgb(68, 68, 68);
+    text-align: center;
+    font-size: 200%
+}
+
+.section4 > div.availableInsurances{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 40px;
+    padding: 20px;
+    width: 60vw;
+    position: relative;
+    left: 16vw
+}
