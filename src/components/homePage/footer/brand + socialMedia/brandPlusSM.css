@@ -1,0 +1,21 @@
+.brandFooter{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 4vw;
+    
+}
+
+.brandFooter .logo{
+    width: 5vw;
+    border-radius: 15%;
+    position: relative;
+    left: 4vw;
+}
+
+.brandFooter .SMiconsFooter{
+    align-content: space-between;
+    justify-content: space-between;
+    position: relative;
+    top: 4vh
+}

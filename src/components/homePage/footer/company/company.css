@@ -1,0 +1,20 @@
+.footerCompany{
+    display: grid;
+    grid-template-columns: repeat(1);
+    grid-template-rows: repeat(5, minmax(0.5vh, 0.5fr));
+    column-gap: -3vh;
+    position: relative;
+    left: 10vw;
+    width: 13vw;
+}
+
+.footerCompany h2{
+    text-align: center;
+    color: rgb(66, 29, 126);
+
+}
+
+.footerCompany p{
+    color: grey;
+
+}

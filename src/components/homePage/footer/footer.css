@@ -1,0 +1,22 @@
+.footerSection{
+    position: relative;
+    top: 160vh;
+    left: 9vw;
+    width: 80vw;
+    height: 43vh;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1vh 1vh 1vh rgba(73, 87, 92, 0.795);
+
+}
+
+.footerBottom{
+    position:relative;
+    top: 150vh;
+    height: 20vh;
+    background-color: rgb(25, 112, 141);
+    z-index: 0;
+}
+

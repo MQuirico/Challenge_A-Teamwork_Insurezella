@@ -1,0 +1,32 @@
+.getInTouch{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 13vw;
+
+}
+
+.getInTouch .title{
+    color: rgb(66, 29, 126);
+    text-align: center;
+}
+
+.getInTouch .info{
+    display: grid;
+    position: relative;
+    bottom: 3vh;
+    grid-template-columns: repeat(2, minmax(2vw, 0.5fr));
+    grid-template-rows: repeat(5, minmax(7vh, 0.5fr));
+    width: 40vh
+}
+
+.getInTouch .info p{
+    position: relative;
+    bottom: 2vh;
+    right: 7vw;
+    width: 20vw;
+    text-align: left;
+    color: grey;
+
+}
+

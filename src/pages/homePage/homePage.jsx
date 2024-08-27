@@ -5,6 +5,7 @@ import Section3 from "../../components/homePage/section3/section3"
 import Section4 from "../../components/homePage/section4/section4"
 import Section5 from "../../components/homePage/section5/section5"
 import Section6 from "../../components/homePage/section6/section6"
+import Footer from "../../components/homePage/footer/footer"
 import "./homePage.css"
 
 export default function HomePage (){
@@ -17,6 +18,7 @@ export default function HomePage (){
            <Section4 /> 
            <Section5 />
            <Section6 />
+           <Footer />
         </div>
     )
 }
