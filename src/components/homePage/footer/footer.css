@@ -3,13 +3,15 @@
     top: 160vh;
     left: 9vw;
     width: 80vw;
-    height: 43vh;
-    display: flex;
-    flex-direction: row;
+    height: 40vh;
     z-index: 1;
     background-color: rgb(255, 255, 255);
     box-shadow: 1vh 1vh 1vh rgba(73, 87, 92, 0.795);
-
+    flex-wrap: wrap;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0vw, 0.5fr));
+    grid-template-rows: repeat(1, minmax(0vh, 0.5fr));
 }
 
 .footerBottom{

@@ -2,20 +2,28 @@
     display: grid;
     grid-template-columns: repeat(1);
     grid-template-rows: repeat(5, minmax(0.5vh, 0.5fr));
-    column-gap: -3vh;
     position: relative;
-    left: 10vw;
+    left: 1vw;
     width: 13vw;
+    flex-wrap: wrap;
+    height: 40vh
+}
+
+.footerCompany .siteLinks{
+    position: relative;
+    bottom: 3vh;
+    display: inline-flexbox;
+    flex-wrap: wrap;
 }
 
 .footerCompany h2{
     text-align: center;
     color: rgb(66, 29, 126);
-
+    font-size: 3.5vh;
 }
 
 .footerCompany p{
     color: grey;
-    cursor: pointer
-
+    cursor: pointer;
+    font-size: 2.3vh
 }

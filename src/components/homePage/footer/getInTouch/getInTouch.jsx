@@ -10,13 +10,13 @@ export default function GetInTouch (){
         <div className="getInTouch">
             <h2 className="title">Get In Touch</h2>
             <div className="info">
-            <EmailIcon sx={{ color: "blue"}}/>
+            <EmailIcon sx={{ color: "blue", maxHeight: "4vh"}}/>
             <p className="e-mail">Email: support@insurezella.com</p>
-            <LocalPhoneIcon sx={{ color: "blue"}}/>
+            <LocalPhoneIcon sx={{ color: "blue", maxHeight: "4vh"}}/>
             <p className="phoneNumb">Tel: +18772270774</p>
-            <AccessTimeIcon sx={{ color: "blue"}}/>
+            <AccessTimeIcon sx={{ color: "blue", maxHeight: "4vh"}}/>
             <p className="hours">Hours: Mon-Fri 9:00AM - 6:00PM</p>
-            <PlaceIcon sx={{ color: "blue"}}/>
+            <PlaceIcon sx={{ color: "blue", maxHeight: "4vh"}}/>
             <p className="address">300 SE 2nd Street Suite 600 Ft. Lauderdale FL 3301</p>
             </div>
         </div>

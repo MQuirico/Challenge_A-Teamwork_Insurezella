@@ -12,12 +12,14 @@
 
 .textArea h2{
     color: rgb(98, 98, 248);
-    font-size: 250%;
+    font-size: 6vh;
     width: 35vw;
     position: absolute;
     top: 28vh;
     left: 15vw;
     line-height: 1;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 
 .textArea .text{

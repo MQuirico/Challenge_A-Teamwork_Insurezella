@@ -1,14 +1,19 @@
 .servicesCont{
     position: relative;
-    display: flex;
+    display: flexbox;
     flex-direction: column;
     width: 15vw;
-    left: 7vw
+    left: 0vw;
+    height: 40vh;
+    flex-wrap: wrap;
+    
+
 }
 
 .servicesCont .titleServices{
     color: rgb(66, 29, 126);
     text-align: center;
+    font-size: 3.5vh;
 }
 
 .servicesCont .availableServices{
@@ -29,6 +34,7 @@
     bottom: 2vh;
     right: 5vw;
     color: grey;
-    cursor: pointer
+    cursor: pointer;
+    font-size: 2.3vh
 
 }

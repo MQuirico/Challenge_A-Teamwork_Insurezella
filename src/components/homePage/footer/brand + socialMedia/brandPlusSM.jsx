@@ -20,19 +20,19 @@ export default function BrandPlusSocialMedia (){
                     <div className="SMiconsFooter">
 
                     <Tooltip title="Facebook">
-                    <FacebookRoundedIcon sx={{ color: "blue", cursor: "pointer"}} />
+                    <FacebookRoundedIcon sx={{ color: "blue", cursor: "pointer", maxHeight: "4vh"}} />
                     </Tooltip>
 
                     <Tooltip title="Twitter">
-                    <TwitterIcon sx={{ color: "blue", cursor: "pointer"}} />
+                    <TwitterIcon sx={{ color: "blue", cursor: "pointer", maxHeight: "4vh"}} />
                     </Tooltip>
 
                     <Tooltip title="Instagram">
-                    <InstagramIcon  sx={{ color: "blue", cursor: "pointer"}}/>
+                    <InstagramIcon  sx={{ color: "blue", cursor: "pointer", maxHeight: "4vh"}}/>
                     </Tooltip>
                     
                     <Tooltip title="LinkedIn">
-                    <LinkedInIcon sx={{ color: "blue", cursor: "pointer"}}/>
+                    <LinkedInIcon sx={{ color: "blue", cursor: "pointer", maxHeight: "4vh"}}/>
                     </Tooltip>
                     </div>
                 </div>
