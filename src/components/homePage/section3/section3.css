@@ -13,7 +13,10 @@
 .section3 .img{
     position:relative;
     left: 5vw;
-    width: 35vw
+    width: 35vw;
+    max-width: 35vw;
+    height: 68vh;
+    max-height: 68vh;
 }
 
 .textAreaSec3{
@@ -27,7 +30,7 @@
     position: relative;
     color:rgb(82, 82, 82);
     font-weight: bolder;
-    font-size: 240%;
+    font-size: 6vh;
     left: 15%;
     line-height: 1.3;
 }
@@ -37,6 +40,7 @@
     color:rgb(151, 151, 151);
     left: 15%;
     line-height: 1.3;
+    font-size: 2.5vh;
 }
 
 .textAreaSec3 button{
@@ -45,7 +49,9 @@
     left: 9vw;
     top: 5vh;
     border-radius: 22%;
-
+    font-size: 2.7vh;
+    width: 18vw;
+    max-width: 18vw
 }
 
 .textAreaSec3 .actions{

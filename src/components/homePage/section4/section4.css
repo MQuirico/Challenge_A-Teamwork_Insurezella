@@ -10,15 +10,19 @@
 .section4 h2{
     color: rgb(68, 68, 68);
     text-align: center;
-    font-size: 200%
+    font-size: 5.3vh
 }
 
 .section4 > div.availableInsurances{
     display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, minmax(3vw, 1fr));
     gap: 40px;
-    padding: 20px;
+    padding-right: 33vh;
+    padding-left: 33vh; 
     width: 60vw;
+    max-width: 60vw;
     position: relative;
-    left: 16vw
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }

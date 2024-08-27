@@ -1,10 +1,18 @@
 .sec3Card{
     width: 16vw;
+    max-width: 16vw;
     height: 10vh;
+    max-height: 10vh;
     display: flex;
     flex-direction: row;
 }
 
+.sec3Card .iconAction{
+    position: relative;
+    top:2vh
+}
+
 .sec3Card h3{
-    color: black
+    color: black;
+    font-size: 2.7vh
 } 

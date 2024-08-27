@@ -4,7 +4,7 @@ export default function Section5 (){
     return(
         <>
             <section className="section5">
-                <img src={picture} />
+                <img src={picture} className="sect5Picture"/>
                 <aside className="textAreaSec5">
                     <h2 className="secTitle">
                         Protecting people, one <br/>

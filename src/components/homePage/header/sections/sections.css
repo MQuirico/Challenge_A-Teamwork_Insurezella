@@ -3,12 +3,12 @@
     height: 5vh;
     position: relative;
     display: flex;
-    top: 50%;
-    left: 37%;
+    top: 8.5vh;
+    left: 35vw;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-size: 60%
+    font-size: 1.6vh
 }
 
 .sectCont h4, p{

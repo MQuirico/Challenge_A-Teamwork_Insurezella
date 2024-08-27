@@ -3,14 +3,14 @@
     height: 6vh;
     background-color: rgb(19, 89, 194);
     position: absolute;
-    top: 0%;
+    top: 0vh;
     align-items: center;
     display: flex;
     flex-direction: row;
 }
 
 .connect{
-    font-size: 120%;
+    font-size: 2.5vh;
     position: absolute;
     left: 15%;
 
@@ -19,14 +19,14 @@
 .mail{
     position:relative;
     left: 50%;
-    font-size: 90%;
+    font-size: 2.5vh;
   
 }
 
 .phone{
     position: relative;
     left: 55%;
-    font-size: 90%;
+    font-size: 2.5vh;
 }
 
 .white{
@@ -38,18 +38,18 @@
     max-width: 5vw;
     position: absolute;
     border-radius: 10%;
-    top: 6.5%;
-    left: 5%
+    top: 6.5vh;
+    left: 5vw
 }
 
 .white .callUs{
     background-color: blue;
-    position: relative;
-    top: 15%;
-    left: 80%;
-    width: 9vw;
+    position: absolute;
+    top: 8vh;
+    left: 80vw;
+    width: 10vw;
     height: 7vh;
     border-radius: 15%;
-    font-size: 75%;
+    font-size: 1.9vh;
 
 }

@@ -45,12 +45,12 @@ export default function Select() {
           }}
           
         >
-          <MenuItem onClick={handleClose}>Health insurance</MenuItem>
-          <MenuItem onClick={handleClose}>Medicare supplement</MenuItem>
-          <MenuItem onClick={handleClose}>Medicare Advantage</MenuItem>
-          <MenuItem onClick={handleClose}>Life insurance</MenuItem>
-          <MenuItem onClick={handleClose}>ACA / obamacare</MenuItem>
-          <MenuItem onClick={handleClose}>Short-Term Medical</MenuItem>
+          <MenuItem sx={{fontSize: "2vh"}} onClick={handleClose}>Health insurance</MenuItem>
+          <MenuItem sx={{fontSize: "2vh"}} onClick={handleClose}>Medicare supplement</MenuItem>
+          <MenuItem sx={{fontSize: "2vh"}} onClick={handleClose}>Medicare Advantage</MenuItem>
+          <MenuItem sx={{fontSize: "2vh"}} onClick={handleClose}>Life insurance</MenuItem>
+          <MenuItem sx={{fontSize: "2vh"}} onClick={handleClose}>ACA / obamacare</MenuItem>
+          <MenuItem sx={{fontSize: "2vh"}} onClick={handleClose}>Short-Term Medical</MenuItem>
 
         </Menu>
       </div>
