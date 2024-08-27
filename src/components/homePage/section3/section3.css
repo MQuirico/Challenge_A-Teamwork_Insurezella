@@ -12,7 +12,8 @@
 
 .section3 .img{
     position:relative;
-    left: 5vw
+    left: 5vw;
+    width: 35vw
 }
 
 .textAreaSec3{

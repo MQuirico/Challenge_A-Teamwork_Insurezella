@@ -2,6 +2,7 @@ import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Tooltip from '@mui/material/Tooltip';
 import logo from "../../../../assets/logo.png"
 import "./brandPlusSM.css"
 
@@ -17,10 +18,22 @@ export default function BrandPlusSocialMedia (){
                     </p>
 
                     <div className="SMiconsFooter">
-                    <FacebookRoundedIcon sx={{ color: "blue"}} />
-                    <TwitterIcon sx={{ color: "blue"}} />
-                    <InstagramIcon  sx={{ color: "blue"}}/>
-                    <LinkedInIcon sx={{ color: "blue"}}/>
+
+                    <Tooltip title="Facebook">
+                    <FacebookRoundedIcon sx={{ color: "blue", cursor: "pointer"}} />
+                    </Tooltip>
+
+                    <Tooltip title="Twitter">
+                    <TwitterIcon sx={{ color: "blue", cursor: "pointer"}} />
+                    </Tooltip>
+
+                    <Tooltip title="Instagram">
+                    <InstagramIcon  sx={{ color: "blue", cursor: "pointer"}}/>
+                    </Tooltip>
+                    
+                    <Tooltip title="LinkedIn">
+                    <LinkedInIcon sx={{ color: "blue", cursor: "pointer"}}/>
+                    </Tooltip>
                     </div>
                 </div>
     )
