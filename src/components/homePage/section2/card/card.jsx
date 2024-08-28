@@ -6,7 +6,20 @@ import { CardActionArea } from '@mui/material';
 
 export default function InsCard({...props}) {
   return (
-    <Card sx={{ width: "17vw", minWidth: "17vw", maxWidth:"17vw", height: "25vh", minHeight: "25vh", maxHeight: "25vh",boxShadow: "1vh 1vh 1vh lightblue" }}>
+    <Card sx={{ 
+      width: "17vw", 
+      minWidth: "17vw", 
+      maxWidth:"17vw", 
+      height: "25vh", 
+      minHeight: "25vh", 
+      maxHeight: "25vh",
+      boxShadow: "1vh 1vh 1vh lightblue",
+      "@media (min-width: 300px) and (max-width: 840px)": {
+          width: "20%",
+          height: "15%",
+          maxHeight: "15%"
+        }  
+      }}>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -21,7 +34,16 @@ export default function InsCard({...props}) {
           }}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div" sx={{position: "absolute", left: "4vw", fontSize:"3.5vh"}}>
+          <Typography gutterBottom variant="h5" component="div" 
+          sx={{
+            position: "absolute", 
+            left: "4vw", 
+            fontSize:"3.5vh",
+            "@media (min-width: 300px) and (max-width: 840px)": {
+              fontSize:"1.5vh",
+
+            }
+          }}>
             {props.insurance}
           </Typography>
         </CardContent>

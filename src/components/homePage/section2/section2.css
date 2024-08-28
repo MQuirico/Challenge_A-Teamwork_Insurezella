@@ -7,3 +7,17 @@
     left: 3vh;
     top: 105vh;
 }
+
+
+@media (min-width: 300px) and (max-width: 840px){
+    .cardsSection{
+        position: absolute;
+        top: 35%;
+        border: 2px red solid;
+        height: 15%;
+        width:90%;
+        display: flex;
+    }
+
+    
+}

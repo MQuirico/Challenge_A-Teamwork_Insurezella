@@ -61,3 +61,51 @@
     left: 8vw;
     top: 10vh
 }
+
+@media (min-width: 300px) and (max-width: 840px){
+    .section3{
+        position: absolute;
+        top: 50%;
+        height: 100%
+    }
+
+    .section3 .img{
+        position: absolute;
+        height: 38vh;
+        min-width: 70vw;
+        z-index: 2;
+
+    }
+
+    .section3 .textAreaSec3 .titleCommitted{
+        position: relative;
+        top: 40%;
+        left: 5%;
+        font-size: 3vh;
+        width: 70vw
+    }
+
+    .section3 .textAreaSec3 .textCommitted{
+        position: relative;
+        font-size: 1vh;
+        top: 39%;
+    }
+
+    .section3 .textAreaSec3 .actions{
+        position: relative;
+        top: 41%;
+        justify-content: space-between;
+        width: 50vw
+    }
+
+    .section3 .textAreaSec3 .buttonAbout{
+        position: relative;
+        top: 40%;
+        font-size: 1.2vh;
+        min-width: 35vw;
+    }
+    
+    
+
+
+}

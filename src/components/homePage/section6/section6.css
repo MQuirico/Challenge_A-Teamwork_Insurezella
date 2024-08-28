@@ -22,3 +22,13 @@
     grid-template-columns: repeat(2, minmax(200px, 1fr));
     padding-left: 5vw;
 }
+
+@media (min-width: 300px) and (max-width: 840px){
+
+
+    .section6{
+        position: absolute;
+        top: 300%    
+    }
+
+}

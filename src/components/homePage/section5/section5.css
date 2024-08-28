@@ -42,3 +42,10 @@
     font-size: 3vh;
 
 }
+
+@media (min-width: 300px) and (max-width: 840px){
+    .section5{
+        position: absolute;
+        top: 230%
+    }
+}
