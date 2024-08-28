@@ -42,3 +42,30 @@
     font-size: 2.5vh;
 
 }
+
+@media (min-width: 300px) and (max-width: 840px){
+    .section1 img{
+        width: 60vw;
+        max-width: 60vw;
+        min-width: 60vw;
+        height:60vh;
+    }
+
+    .textArea h2{
+    color: rgb(98, 98, 248);
+    font-size: 6vh;
+    width: 35vw;
+    position: absolute;
+    top: 28vh;
+    left: 15vw;
+    line-height: 1;
+    display: inline-flex;
+    flex-wrap: wrap;
+
+    }
+    
+    .header .white{
+        height: 0vh;
+        width: 0vh;
+    }
+}

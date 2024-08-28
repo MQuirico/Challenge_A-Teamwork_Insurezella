@@ -2,3 +2,11 @@
     font-family: 'Poppins', sans-serif;
     height: auto;
 }
+
+
+@media (min-width: 300px) and (max-width: 840px){
+    .home{
+        height: auto;
+        width: auto
+    }
+}
