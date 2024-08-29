@@ -35,5 +35,3 @@ npm run dev
 
 ## Uso
 La aplicación se ejecuta en `http://localhost:5173` después de iniciar el servidor de desarrollo.
-
-La aplicación se ejecuta en `http://localhost:5173` después de iniciar el servidor de des
