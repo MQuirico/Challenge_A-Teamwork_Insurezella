@@ -28,3 +28,20 @@
     display: grid;
     grid-template-columns: repeat(4, minmax(0vw, 0.5fr));
 }
+
+@media (min-width: 300px) and (max-width: 840px){
+    .brandFooter .SMiconsFooter{
+        align-content: space-between;
+        justify-content: space-between;
+        position: relative;
+        top: 2vh;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(-2vw, 0.5fr));
+        width: 30vw;
+    }
+
+    .brandFooter .brandText{
+        font-size: 1.7vh
+    }
+
+}

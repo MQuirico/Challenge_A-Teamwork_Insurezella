@@ -4,8 +4,10 @@ import { useMediaQuery } from '@mui/material';
 import TemporaryDrawer from "./drawer (mobile)/drawer";
 import "./header.css"
 
+
 export default function Header (){
-    const isMobile = useMediaQuery('(min-width:300px)') && useMediaQuery('(max-width: 840px)')
+const isMobile = useMediaQuery('(min-width:300px)') && useMediaQuery('(max-width: 840px)')
+
     return(
         <>
         <header className="header">

@@ -22,7 +22,18 @@
 }
 
 @media (min-width: 300px) and (max-width: 840px){
-    .insurancesCard{
-        
+    .insurancesCard img{
+        width: 7vw;
+        max-width: 7vw
+    }
+
+    .insurancesCard h3{
+        color: rgb(11, 149, 196);
+        font-size: 2vh;
+    }
+
+    .insurancesCard p{
+        color: grey;
+        font-size: 1vh;
     }
 }

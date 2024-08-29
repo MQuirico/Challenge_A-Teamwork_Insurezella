@@ -46,6 +46,38 @@
 @media (min-width: 300px) and (max-width: 840px){
     .section5{
         position: absolute;
-        top: 230%
+        top: 215%;
+        left: 5%;
+        height: 70vh
+    }
+
+    .section5 .sect5Picture{
+        position: relative;
+        max-height: 33vh;
+        min-width: 60vw;
+    }
+
+    .section5 .secTitle{
+        position: absolute;
+        font-size: 2vh;
+        top: 45.5%;
+        left: 32%
+    }
+
+    .section5 .textSect5{
+        position: absolute;
+        font-size: 1.1vh;
+        top: 56%;
+        left: 32%
+
+    }
+
+    .section5 .learnButton{
+        position: absolute;
+        font-size: 1.5vh;
+        width: 30vw;
+        min-width: 30vw;
+        top: 87%;
+        left: 32%
     }
 }

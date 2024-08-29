@@ -6,17 +6,45 @@ import "./getInTouch.css"
 
 export default function GetInTouch (){
 
+
     return(
         <div className="getInTouch">
             <h2 className="title">Get In Touch</h2>
             <div className="info">
-            <EmailIcon sx={{ color: "blue", maxHeight: "4vh"}}/>
+            <EmailIcon sx={{ 
+                color: "blue", 
+                maxHeight: "4vh",
+                "@media (min-width: 300px) and (max-width: 840px)":{
+                    maxHeight: "2vh"
+                }
+
+                }}/>
             <p className="e-mail">Email: support@insurezella.com</p>
-            <LocalPhoneIcon sx={{ color: "blue", maxHeight: "4vh"}}/>
+            <LocalPhoneIcon sx={{ 
+                color: "blue", 
+                maxHeight: "4vh",
+                "@media (min-width: 300px) and (max-width: 840px)":{
+                    maxHeight: "2vh"
+                }
+            
+            }}/>
             <p className="phoneNumb">Tel: +18772270774</p>
-            <AccessTimeIcon sx={{ color: "blue", maxHeight: "4vh"}}/>
+            <AccessTimeIcon sx={{ 
+                color: "blue", 
+                maxHeight: "4vh",
+                "@media (min-width: 300px) and (max-width: 840px)":{
+                    maxHeight: "2vh"
+                }
+            }}/>
             <p className="hours">Hours: Mon-Fri 9:00AM - 6:00PM</p>
-            <PlaceIcon sx={{ color: "blue", maxHeight: "4vh"}}/>
+            <PlaceIcon sx={{ 
+                color: "blue", 
+                maxHeight: "4vh",
+                "@media (min-width: 300px) and (max-width: 840px)":{
+                    maxHeight: "2vh"   
+                }
+                
+                }}/>
             <p className="address">300 SE 2nd Street Suite 600 Ft. Lauderdale FL 3301</p>
             </div>
         </div>

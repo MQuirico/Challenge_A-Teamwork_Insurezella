@@ -27,3 +27,30 @@
     cursor: pointer;
     font-size: 2.3vh
 }
+
+@media (min-width: 300px) and (max-width: 840px){
+
+    .footerCompany p{
+        color: grey;
+        cursor: pointer;
+        font-size: 1.5vh
+    }
+
+    .footerCompany h2{
+        text-align: center;
+        color: rgb(66, 29, 126);
+        font-size: 3vh;
+    }
+
+    .footerCompany{
+        display: grid;
+        grid-template-columns: repeat(1);
+        grid-template-rows: repeat(5, minmax(0.5vh, 0.5fr));
+        position: relative;
+        left: 0%;
+        width: 13vw;
+        flex-wrap: wrap;
+        height: 40vh
+    }
+
+}

@@ -56,8 +56,8 @@
     .section1 img{
         position: relative;
         top:4%;
-        left: 150%;
-        width:30vw;
+        left: 123%;
+        width:50vw;
         max-width: 100vw;
         min-width: 40vw;
         height: 70%;
@@ -65,16 +65,17 @@
  }
 
     .section1 .textArea{
-        z-index: 1;
+        z-index: -2;
         position: absolute;
-        height: 20%;
-        top:7%
+        top:3%;
+        width:100vw;
+        height: 21vh
     }
 
     .section1 .textArea .text{
         position: relative;
         top: 5%;
-        left: 10%;
+        left: 6%;
         font-size: 1vh;
 
     }
@@ -85,7 +86,7 @@
         width: 110%;
         position: relative;
         top: 15%;
-        left: 10%;
+        left: 6%;
         line-height: 1;
         display: inline-flex;
         flex-wrap: wrap;
@@ -93,9 +94,9 @@
 
     .section1 .textArea .findPlans{
         position: relative;
-        top: 5%;
-        left: 10%;
-        min-width: 40%;
+        top: 3%;
+        left: 6%;
+        min-width: 20vw;
         max-height: 10%;
         font-size: 50%;
     }

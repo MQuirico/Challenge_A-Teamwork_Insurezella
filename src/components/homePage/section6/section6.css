@@ -24,11 +24,31 @@
 }
 
 @media (min-width: 300px) and (max-width: 840px){
-
-
     .section6{
         position: absolute;
-        top: 300%    
+        top: 280%;
+        left: 3%;
+        padding-left: 0%;
+        padding-right: 0%;
+        width: 93vw;
+        align-items: center;
     }
+
+    .section6 .sect6Title{
+        font-size: 2vh
+    }
+
+    .sect6Cards{
+        position: relative;
+        bottom: 5%;
+        max-height: 77vh;
+        width: 85vw;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(50px, 1fr));
+        padding-left: 5vw;
+        justify-content: center;
+    }
+
+
 
 }

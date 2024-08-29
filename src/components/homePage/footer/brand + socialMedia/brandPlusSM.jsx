@@ -20,19 +20,50 @@ export default function BrandPlusSocialMedia (){
                     <div className="SMiconsFooter">
 
                     <Tooltip title="Facebook">
-                    <FacebookRoundedIcon sx={{ color: "blue", cursor: "pointer", maxHeight: "4vh"}} />
+                    <FacebookRoundedIcon sx={{ 
+                        color: "blue", 
+                        cursor: "pointer", 
+                        maxHeight: "4vh",
+                        "@media (min-width: 300px) and (max-width: 840px)":{
+                            maxHeight: "2.5vh"
+                        }
+                        
+                        }} />
                     </Tooltip>
 
                     <Tooltip title="Twitter">
-                    <TwitterIcon sx={{ color: "blue", cursor: "pointer", maxHeight: "4vh"}} />
+                    <TwitterIcon sx={{ 
+                        color: "blue", 
+                        cursor: "pointer", 
+                        maxHeight: "4vh",
+                        "@media (min-width: 300px) and (max-width: 840px)":{
+                            maxHeight: "2.5vh"
+                        }
+                        
+                        }} />
                     </Tooltip>
 
                     <Tooltip title="Instagram">
-                    <InstagramIcon  sx={{ color: "blue", cursor: "pointer", maxHeight: "4vh"}}/>
+                    <InstagramIcon  sx={{ 
+                        color: "blue", 
+                        cursor: "pointer", 
+                        maxHeight: "4vh",
+                        "@media (min-width: 300px) and (max-width: 840px)":{
+                            maxHeight: "2.5vh"
+                        }
+                        }}/>
                     </Tooltip>
                     
                     <Tooltip title="LinkedIn">
-                    <LinkedInIcon sx={{ color: "blue", cursor: "pointer", maxHeight: "4vh"}}/>
+                    <LinkedInIcon sx={{ 
+                        color: "blue", 
+                        cursor: "pointer", 
+                        maxHeight: "4vh",
+                        "@media (min-width: 300px) and (max-width: 840px)":{
+                            maxHeight: "2.5vh"
+                        }
+                        
+                        }}/>
                     </Tooltip>
                     </div>
                 </div>

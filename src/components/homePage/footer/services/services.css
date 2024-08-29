@@ -38,3 +38,38 @@
     font-size: 2.3vh
 
 }
+
+@media (min-width: 300px) and (max-width: 840px){
+    .servicesCont .availableServices p{
+        font-size: 1.7vh;
+        width: 40vw
+    }
+
+    .servicesCont .titleServices{
+        color: rgb(66, 29, 126);
+        text-align: center;
+        font-size: 3.2vh;
+    }
+
+    .servicesCont{
+        position: relative;
+        display: flexbox;
+        flex-direction: column;
+        width: 15vw;
+        left: -12vw;
+        height: 40vh;
+        flex-wrap: wrap;
+        bottom: 4.7vh
+    
+    }
+
+    .servicesCont .availableServices{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(2vw, 0.5fr));
+        grid-template-rows: repeat(5, minmax(4vh, 0.5fr));
+        position: relative;
+        bottom: 3.7vh;
+        top: 0.5vh
+    }
+
+}

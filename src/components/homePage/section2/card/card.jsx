@@ -15,9 +15,10 @@ export default function InsCard({...props}) {
       maxHeight: "25vh",
       boxShadow: "1vh 1vh 1vh lightblue",
       "@media (min-width: 300px) and (max-width: 840px)": {
-          width: "20%",
-          height: "15%",
-          maxHeight: "15%"
+          width: "12vh",
+          height: "10vh",
+          maxHeight: "10vh",
+          minHeight: "10vh"
         }  
       }}>
       <CardActionArea>
@@ -30,7 +31,11 @@ export default function InsCard({...props}) {
             width: "30%",
             height: "30%",
             position: "relative",
-            left: "6vw"
+            left: "6vw",
+            "@media (min-width: 300px) and (max-width: 840px)":{
+              height: "30%",
+              width: "30%"
+            }
           }}
         />
         <CardContent>

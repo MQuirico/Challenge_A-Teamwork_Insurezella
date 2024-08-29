@@ -22,6 +22,40 @@
     z-index: 0;
 }
 
+.mobileFooter .footer1{
+    position: absolute;
+    top:370%;
+    height: 27vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    z-index: 0;
+    background-color: white;
+    box-shadow: 1vh 1vh 1vh rgba(73, 87, 92, 0.795);
+}
+
+.mobileFooter .lightBlueFooter{
+    position: absolute;
+    top: 394%;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(4, 111, 146);
+    z-index: -1;
+
+}
+
+.mobileFooter .footer2{
+    position: absolute;
+    top: 402%;
+    height: 27vh;
+    left: 30%;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1vh 1vh 1vh 1vh  rgba(73, 87, 92, 0.795);
+    background-color: white;
+}
+
 @media (min-width: 300px) and (max-width: 840px){
    .footerSection{
     position: absolute;

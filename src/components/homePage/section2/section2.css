@@ -12,8 +12,7 @@
 @media (min-width: 300px) and (max-width: 840px){
     .cardsSection{
         position: absolute;
-        top: 35%;
-        border: 2px red solid;
+        top: 32%;
         height: 15%;
         width:90%;
         display: flex;
